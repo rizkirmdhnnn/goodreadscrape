@@ -34,13 +34,7 @@ GoodReadsScrape allows you to automatically collect book reviews from Goodreads.
 - Go 1.25.3 or higher
 - Goodreads API key (required for authentication)
 
-### Method 1: Go Install
-
-```bash
-go install github.com/rizkirmdhnnn/goodreadscrape/cmd/bot@latest
-```
-
-### Method 2: Manual Build
+### Installation
 
 1. Clone repository:
 
