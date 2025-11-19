@@ -150,23 +150,22 @@ goodreadscrape -api YOUR_API_KEY \
 
 The generated CSV file has the following structure:
 
-| Column         | Description                  | Example                                      |
-| -------------- | ---------------------------- | -------------------------------------------- |
-| `BookURL`      | Full book URL on Goodreads   | `https://www.goodreads.com/book/show/123456` |
-| `BookTitle`    | Book title                   | `The Great Gatsby`                           |
-| `ReviewID`     | Unique identifier for review | `review_12345`                               |
-| `ReviewerName` | Reviewer name                | `John Doe`                                   |
-| `Rating`       | Rating given (1-5)           | `5`                                          |
-| `ReviewText`   | Full review text             | `This is an amazing book...`                 |
-| `ReviewDate`   | Review date                  | `2024-01-15`                                 |
-| `Language`     | Review language              | `id` or `en`                                 |
+| Column         | Description                | Example                                      |
+| -------------- | -------------------------- | -------------------------------------------- |
+| `BookURL`      | Full book URL on Goodreads | `https://www.goodreads.com/book/show/123456` |
+| `BookTitle`    | Book title                 | `The Great Gatsby`                           |
+| `ReviewerName` | Reviewer name              | `John Doe`                                   |
+| `Rating`       | Rating given (1-5)         | `5`                                          |
+| `ReviewText`   | Full review text           | `This is an amazing book...`                 |
+| `ReviewDate`   | Review date                | `2024-01-15`                                 |
+| `Language`     | Review language            | `id` or `en`                                 |
 
 ### Example CSV Output
 
 ```csv
-BookURL,BookTitle,ReviewID,ReviewerName,Rating,ReviewText,ReviewDate,Language
-https://www.goodreads.com/book/show/123456,The Great Gatsby,review_1,John Doe,5,"Amazing book!",2024-01-15,en
-https://www.goodreads.com/book/show/123456,The Great Gatsby,review_2,Jane Smith,4,"Good read",2024-01-16,en
+BookURL,BookTitle,ReviewerName,Rating,ReviewText,ReviewDate,Language
+https://www.goodreads.com/book/show/123456,The Great Gatsby,John Doe,5,"Amazing book!",2024-01-15,en
+https://www.goodreads.com/book/show/123456,The Great Gatsby,Jane Smith,4,"Good read",2024-01-16,en
 ```
 
 ---

@@ -44,7 +44,7 @@ func (s *CSVStorage) SaveReviews(reviews []models.Review, outputPath string) err
 	// Write header only if file is new
 	if !fileExists {
 		header := []string{
-			"BookURL", "BookTitle", "ReviewID", "ReviewerName",
+			"BookURL", "BookTitle", "ReviewerName",
 			"Rating", "ReviewText", "ReviewDate", "Language",
 		}
 		if err := writer.Write(header); err != nil {
@@ -57,7 +57,6 @@ func (s *CSVStorage) SaveReviews(reviews []models.Review, outputPath string) err
 		record := []string{
 			review.BookURL,
 			review.BookTitle,
-			review.ReviewID,
 			review.ReviewerName,
 			review.Rating,
 			review.ReviewText,
