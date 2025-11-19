@@ -1,8 +1,5 @@
 # GoodReadsScrape
 
-[![Go Version](https://img.shields.io/badge/Go-1.25.3-blue.svg)](https://golang.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 **GoodReadsScrape** is a command-line tool written in Go for scraping reviews from the Goodreads platform and generating CSV output. The tool is designed with an efficient architecture using concurrency workers to speed up the scraping process.
 
 ## 📋 Description
