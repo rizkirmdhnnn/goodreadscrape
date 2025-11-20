@@ -146,16 +146,19 @@ func (app *ScraperApp) worker(ctx context.Context, id int, jobs <-chan string, r
 		default:
 		}
 
+		// Verbose logging
 		if app.Config.Verbose {
 			log.Printf("Worker %d: Starting scraping for %s", id, url)
 		}
 
+		// Scrape book data
 		bookData, err := app.Scraper.ScrapeBookData(url, app.Config.MaxReviews, filters)
 		if err != nil {
 			log.Printf("❌ Worker %d: Failed to scrape %s: %v", id, url, err)
 			continue
 		}
 
+		// Verbose logging
 		if app.Config.Verbose {
 			log.Printf("Worker %d: Finished scraping %s (%d reviews)", id, url, len(bookData.Reviews))
 		}
