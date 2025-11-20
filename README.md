@@ -33,27 +33,39 @@ GoodReadsScrape allows you to automatically collect book reviews from Goodreads.
 
 https://github.com/user-attachments/assets/e6b7fed4-c273-49c9-a83d-f251bb60abe4
 
-
-
 ### Installation
 
-1. Clone repository:
+#### Quick Install (Recommended)
+
+Install directly from GitHub using `go install`:
+
+```bash
+go install github.com/rizkirmdhnnn/goodreadscrape/cmd/goodreadscrape@latest
+```
+
+After installation, make sure `$GOPATH/bin` (or `$HOME/go/bin` if `GOPATH` is not set) is in your `PATH`. The `goodreadscrape` command will be available globally.
+
+#### Build from Source
+
+Alternatively, you can build from source:
+
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/rizkirmdhnnn/goodreadscrape.git
 cd goodreadscrape
 ```
 
-2. Build binary:
+2. Build the binary:
 
 ```bash
-go build -o goodreadscrape cmd/bot/main.go
+go build -o goodreadscrape cmd/goodreadscrape/main.go
 ```
 
 3. (Optional) Install to `$GOPATH/bin`:
 
 ```bash
-go install ./cmd/bot
+go install ./cmd/goodreadscrape
 ```
 
 ## 🚀 Usage
