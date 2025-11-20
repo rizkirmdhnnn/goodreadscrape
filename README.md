@@ -184,6 +184,10 @@ https://www.goodreads.com/book/show/123456,The Great Gatsby,John Doe,5,"Amazing 
 https://www.goodreads.com/book/show/123456,The Great Gatsby,Jane Smith,4,"Good read",2024-01-16,en
 ```
 
+## 📝 TODO
+
+- [ ] Add more filtering options (e.g., rating range, date range)
+
 ---
 
 **Note**: This tool is created for educational and research purposes. Please ensure you comply with Goodreads Terms of Service and use this tool responsibly.
