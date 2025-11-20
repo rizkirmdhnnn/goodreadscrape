@@ -2,9 +2,10 @@ package storage
 
 import (
 	"encoding/csv"
-	"goodreadscrape/internal/models"
 	"os"
 	"testing"
+
+	"github.com/rizkirmdhnnn/goodreadscrape/internal/models"
 )
 
 func TestNewCSVStorage(t *testing.T) {
