@@ -31,6 +31,10 @@ GoodReadsScrape allows you to automatically collect book reviews from Goodreads.
 - Go 1.25.3 or higher
 - Goodreads API key (required for authentication)
 
+https://github.com/user-attachments/assets/e6b7fed4-c273-49c9-a83d-f251bb60abe4
+
+
+
 ### Installation
 
 1. Clone repository:
