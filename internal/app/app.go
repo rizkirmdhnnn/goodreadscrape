@@ -3,16 +3,17 @@ package app
 import (
 	"context"
 	"fmt"
-	"goodreadscrape/internal/config"
-	"goodreadscrape/internal/models"
-	"goodreadscrape/internal/scraper"
-	"goodreadscrape/internal/storage"
-	"goodreadscrape/internal/validator"
 	"log"
 	"os"
 	"os/signal"
 	"sync"
 	"syscall"
+
+	"github.com/rizkirmdhnnn/goodreadscrape/internal/config"
+	"github.com/rizkirmdhnnn/goodreadscrape/internal/models"
+	"github.com/rizkirmdhnnn/goodreadscrape/internal/scraper"
+	"github.com/rizkirmdhnnn/goodreadscrape/internal/storage"
+	"github.com/rizkirmdhnnn/goodreadscrape/internal/validator"
 )
 
 // ScraperApp holds the application dependencies

@@ -1,6 +1,6 @@
 package storage
 
-import "goodreadscrape/internal/models"
+import "github.com/rizkirmdhnnn/goodreadscrape/internal/models"
 
 // Storage interface defines methods for storing scraped data
 type Storage interface {

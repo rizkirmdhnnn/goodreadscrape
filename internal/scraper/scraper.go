@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"goodreadscrape/internal/models"
 	"io"
 	"log"
 	"net/http"
@@ -15,6 +14,7 @@ import (
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
+	"github.com/rizkirmdhnnn/goodreadscrape/internal/models"
 )
 
 // Define GoodreadsScraper interface and its implementation

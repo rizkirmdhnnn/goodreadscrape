@@ -2,8 +2,9 @@ package scraper
 
 import (
 	"encoding/json"
-	"goodreadscrape/internal/models"
 	"testing"
+
+	"github.com/rizkirmdhnnn/goodreadscrape/internal/models"
 )
 
 func TestGraphQLResponseParsing(t *testing.T) {

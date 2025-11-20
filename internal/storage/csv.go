@@ -3,9 +3,10 @@ package storage
 import (
 	"encoding/csv"
 	"fmt"
-	"goodreadscrape/internal/models"
 	"os"
 	"path/filepath"
+
+	"github.com/rizkirmdhnnn/goodreadscrape/internal/models"
 )
 
 // CSVStorage implements Storage interface for CSV output

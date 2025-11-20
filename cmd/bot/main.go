@@ -1,10 +1,11 @@
 package main
 
 import (
-	"goodreadscrape/internal/app"
-	"goodreadscrape/internal/config"
 	"log"
 	"os"
+
+	"github.com/rizkirmdhnnn/goodreadscrape/internal/app"
+	"github.com/rizkirmdhnnn/goodreadscrape/internal/config"
 )
 
 func main() {

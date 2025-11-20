@@ -1,4 +1,4 @@
-module goodreadscrape
+module github.com/rizkirmdhnnn/goodreadscrape
 
 go 1.25.3
 
